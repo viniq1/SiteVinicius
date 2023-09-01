@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+header {
+    background-color: #e5decf;
+    color: black;
+    padding: 16px 0;
+    position: initial;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+header h1, header a {
+    font-family: 'Pangolin', cursive;
+    font-weight: normal;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header img {
+    height: 26px;;
+}
+
+header a, .texto a {
+    text-decoration: none;
+}
+
+section .container h1 {
+    font-family: 'Pangolin', cursive;
+}
+
+section .texto img {
+    height: 26px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+section .texto li {
+    display: inline;
+}
+
+.texto p {
+    margin-bottom: 10px;
+}
+
+.foto-perfil img {
+    width: 200px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+section .container {
+    display: flex;
+    padding: 50px;
+    text-align: justify;
+}
+
+section .badges img {
+    height: 64px;
+}
+
+.badges {
+    text-align: center;
+    margin: auto;
+}
+
+.badges li {
+    display: inline;
+}
+
+.badges img {
+    height: 26px;
+    padding: 4px;
+    margin-top: 10px;
+}
