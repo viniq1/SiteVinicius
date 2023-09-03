@@ -150,6 +150,8 @@ section .container {
     font-style: italic;
     margin: 120px 10px;
     background-color: #e5decf;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
     font-family: 'Roboto Mono', monospace;
     padding: 8px 16px;
 }
