@@ -17,33 +17,32 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="https://www.instagram.com/vinicius_hq/" title="Instagram" target="_blank">
-                            <img src="./imagens/instagram.png" alt="instagram"/>
-                        </a>
+                        <a href="#perfil">Perfil</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/vinicius-henrique-quadros/" title="Linkedin" target="_blank">
-                            <img src="./imagens/linkedin.png" alt="Linkedin"/>
-                        </a>
+                        <a href="#Significados">Fotos</a>
                     </li>
                     <li>
-                        <a href="https://github.com/viniq1" title="GitHub" target="_blank">
-                            <img src="./imagens/github.png" alt="GitHub"/>
-                        </a>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
+    <section id="perfil">
         <div class="container">
             <div class="foto-perfil">
                 <img src="./imagens/Perfil-Lkdn.jpeg" alt="Foto de apresentação"/>
+                <div class="skills">
+                    <button type="button">
+                        <a href="https://www.linkedin.com/in/vinicius-henrique-quadros/details/skills/" title="Badges" target="_blank">Skills</a>
+                    </button>
+                </div>
             </div>
             <div class="texto">
                 <h1>Quem sou eu:</h1>
-                <p>Engenheiro de Controle e Automação, trabalhando com sensores e desenvolvendo soluções para a indústria. Ingressei na carreira comercial em 2016, onde desenvolvi habilidades de comunicação, organização pessoal, administração de projetos e relacionamento B2B. As visitas são comuns a clientes dos mais variados segmentos da indústria, conhecendo diversos processos produtivos que contribuem para a visão de resolução de problemas. Em todos esses anos, estou muito comprometido com prazos, metas e com a responsabilidade de garantir a participação nos resultados da empresa, sempre com respeito às pessoas e construindo ótimas relações pessoais. A ética e a moral são meu guia para manter o bom trabalho e buscar o aperfeiçoamento a cada dia.</p>
+                <p>Engenheiro de Controle e Automação, trabalhando com sensores e desenvolvendo soluções para a indústria. Ingressei na carreira comercial em 2016, onde desenvolvi habilidades de comunicação, organização pessoal, administração de projetos e relacionamento B2B. As visitas são comuns a clientes dos mais variados segmentos da indústria. Conheci diversos processos produtivos que contribuem para a visão de resolução de problemas. Em todos esses anos de experiência, estive muito comprometido com prazos, metas e com a responsabilidade de garantir a participação nos resultados da empresa, sempre com respeito às pessoas e construindo ótimas relações pessoais.</p>
                 <ul>
                     <li>
                         <a href="https://www.instagram.com/vinicius_hq/" title="Instagram" target="_blank">
@@ -64,31 +63,66 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Significados">
         <div class="container">
-            <div class="badges">
-                <div>
-                    <h1>Badges</h1>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <img src="./imagens/robotics.png" alt="Automação"/>
-                        </li>
-                        <li>
-                            <img src="./imagens/html5.2.png" alt="HTML5"/>
-                        </li>
-                        <li>
-                            <img src="./imagens/css-3.png" alt="CSS"/>
-                        </li>
-                        <li>
-                            <img src="./imagens/b2b.png" alt="B2B"/>
-                        </li>
-                    </ul>
-                </div>
+            <h1>Significados:</h1>
+            <div class="fotos">
+                <ul>
+                    <li>
+                        <img src="./imagens/amor.png" alt="Amor da minha vida">
+                    </li>
+                    <li>
+                        <img src="./imagens/passeio.png" alt="Passeio com os dogs">
+                    </li>
+                    <li>
+                        <img src="./imagens/companheiros.png" alt="Aproveitando com os amigos">
+                    </li>
+                    <li>
+                        <img src="./imagens/yoda.JPEG" alt="Cachorro: Yoda">
+                    </li>
+                    <li>
+                        <img src="./imagens/leona.jpg" alt="Cachorro: Leona">
+                    </li>
+                    <li>
+                        <img src="./imagens/praia.JPEG" alt="Chinelos na praia">
+                    </li>
+                </ul>
             </div>
-
         </div>
     </section>
+    <section id="inspiracao">
+        <div class="container">
+            <div>
+                <h2>Inspiração:</h2>
+                <div id="foto-einstein">
+                    <img src="./imagens/einstein.jpg" alt="Albert Einstein">
+                    <p>"Procure ser um homem de valor, em vez de ser um homem de sucesso".</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato:</h2>
+            <div class="form-contato">
+                <div>
+                    <h3>Fale comigo:</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu email" required/>
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Vinicius - "A ética e a moral são meu guia para manter o bom trabalho e buscar o aperfeiçoamento a cada dia". - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
